@@ -11,6 +11,3 @@ Exceptional cases:
 Environment Details :
 OS: Ubuntu
 Anaconda - Jupyter
-
-
-This is also my 1st git project. Hence testing the push pull.
