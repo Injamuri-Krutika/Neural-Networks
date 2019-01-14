@@ -1,0 +1,11 @@
+print("+++++++++++++++++++++++++++++++++++")
+print("Testing new data with Batch Prediction:")
+for i in range(6):
+            y = np.insert(test[i], 0, 1)
+            print(test[i],perceptron.batchPrediction(y),sep=":")
+print("+++++++++++++++++++++++++++++++++++")
+print()
+print("Testing new data with Stochoistic Prediction")            
+for i in range(6):
+            y = np.insert(test[i], 0, 1)
+            print(test[i],perceptron.prediction(y),sep=":")
